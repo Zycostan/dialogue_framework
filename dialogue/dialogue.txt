@@ -1,0 +1,48 @@
+# sample conversation
+
+[start]
+speaker: Guard
+text: Halt! State your business in this holy city.
+option: Just here to visit the market. -> market_visit
+option: Just looking for work!. -> looking_work
+option: Thats none of your concern. -> rude_response
+
+[market_visit]
+speaker: Guard
+text: Ah, a merchant! The Market's straight ahead!
+option: Thanks. -> grateful
+option: I see that. -> confident_response
+
+[looking_work]
+speaker: Guard
+text: Work, eh? check the tavern
+option: which tavern?. -> ask_tavern
+option: Thanks. -> bef_end
+
+[rude_response]
+speaker: Guard
+text: Watch yo tone fucker
+option: Sorry, long journey man, here for the market. -> market_visit
+option: My bad, just here for work. -> looking_work
+
+[grateful]
+speaker: Guard
+text: No problem gng
+option: Thanks! -> bef_end
+
+[confident_response]
+speaker: Guard
+text: Like your spirits, goodluck out there
+option: Cya -> bef_end
+
+[ask_tavern]
+speaker: Guard
+text: Its over there.
+option: Thanks! -> bef_end
+
+[bef_end]
+speaker: Guard
+text: Safe travels
+
+
+#this is an example, feel free to customize

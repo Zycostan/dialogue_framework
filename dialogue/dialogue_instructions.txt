@@ -1,0 +1,6 @@
+Text File Format:
+	[node_id] = Defines a dialogue node
+	speaker: Name - person speaking
+	text: Dialogue text - what they say
+	option: Choice text -> next_node - player choices
+	# for commenting!
